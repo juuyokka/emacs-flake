@@ -25,6 +25,7 @@ in
                   };
                 };
 
+                xwayland-run.basePackage = pkgs.xwayland-run;
                 run-emacs.basePackage = self'.packages.run-emacs;
               };
             }
